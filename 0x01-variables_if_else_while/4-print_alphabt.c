@@ -13,7 +13,6 @@ for (letters = 97; letters <= 122; letters++)
 
 if (letters == 101 || letters == 113)
 {
-letters++;
 continue;
 }
 putchar(letters);
