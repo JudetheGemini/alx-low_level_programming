@@ -2,40 +2,45 @@
 /**
  * main - Print three different numbers
  *
+ *
  * Return: 0 (Success)
+ *
+ * i = First digit
+ * j = Second digit
+ * k = Third digit
  */
 int main(void)
 {
-int firstDigit, secondDigit, thirdDigit;
-firstDigit = 48;
-secondDigit = 48;
-thirdDigit = 48;
+int i, j, k;
+i = 48;
+j = 48;
+k = 48;
 
-while (firstDigit < 58)
+while (i < 58)
 {
-secondDigit = 48;
-while (secondDigit < 58)
+j = 48;
+while (j < 58)
 {
-thirdDigit = 48;
-while (thirdDigit < 58)
+k = 48;
+while (k < 58)
 {
-if (firstDigit < secondDigit && secondDigit < thirdDigit && firstDigit != secondDigit && secondDigit != thirdDigit)
+if (i < j && j < k && i != j && j != k)
 {
-putchar(firstDigit);
-putchar(secondDigit);
-putchar(thirdDigit);
-if (thirdDigit == 57 && firstDigit == 55)
+putchar(i);
+putchar(j);
+putchar(k);
+if (k == 57 && i == 55)
 {
 break;
 }
 putchar(',');
 putchar(' ');
 }
-thirdDigit++;
+k++;
 }
-secondDigit++;
+j++;
 }
-firstDigit++;
+i++;
 }
 putchar('\n');
 return (0);
