@@ -1,0 +1,1 @@
+Directory containing more problems involving pointers, arrays and strings.
