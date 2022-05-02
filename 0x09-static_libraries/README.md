@@ -1,0 +1,1 @@
+Directory containing exercises involving creation of static libraries. 
