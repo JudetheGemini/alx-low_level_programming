@@ -11,8 +11,6 @@ char *_strdup(char *str)
 	char *myStr;
 	unsigned int i, j;
 
-	myStr = malloc(sizeof(str));
-
 	if (str == NULL)
 	{
 		return (NULL);
