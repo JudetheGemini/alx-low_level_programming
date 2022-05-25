@@ -1,18 +1,15 @@
-	.MODEL SMALL
-	.STACK 100H
-	.DATA
+	SECTION .data
+msg:		db "Hello, Holberton", 0
+fmt:		db "%s", 10, 0
 
-	STRING DB 'Hello Holberton'
+	SECTION .text
+	extern printf
+	global main
+main:
+	mov esi, msg
+	mov edi, fmt
+	mov eax, 0
+	call printf
 
-	.CODE
-	MAIN PROC FAR
-	MOV AX, @DATA
-	MOV DS, AX
-
-	LEA DX, STRING
-
-	MOV AH, 09H
-	INT 21H
-
-	MAIN ENDP
-	END MAIN
+	mov eax, 0
+	ret
