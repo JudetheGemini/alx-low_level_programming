@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * void free_listint - frees a listint_t list
+ * free_listint - frees a listint_t list
  * @head: node to be freed
  * Return: void
  */
