@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  * dlistint_len - prints number of
  * elements in a list
