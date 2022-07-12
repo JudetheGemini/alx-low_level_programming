@@ -1,0 +1,1 @@
+This directory contains tasks invloving dynamic libraries for the ALX softwafre engineering program.
