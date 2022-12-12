@@ -1,1 +1,0 @@
-Directory containing tasks on the Implementation of Search Algorithms using C
